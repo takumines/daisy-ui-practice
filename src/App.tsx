@@ -7,7 +7,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className="bg-blue-400 text-blue-300">
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
@@ -18,6 +18,7 @@ const App = () => {
         >
           Learn React
         </a>
+        <button className="btn btn-primary">Hello Daisy UI</button>
       </header>
     </div>
   );
